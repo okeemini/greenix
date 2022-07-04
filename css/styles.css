@@ -1,0 +1,173 @@
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat-black";
+}
+
+h2, h3, p {
+  font-family: "Montserrat-bold";
+}
+
+
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+/* Naigation bar */
+
+.nav-bar {
+  color: #14a76c;
+}
+
+.nav-bar:hover {
+  color: #5cdb95;
+}
+
+
+.navbar-toggler {
+  background-color: #14a76c;
+}
+
+.navbar {
+  padding: 0 0 3.5rem;
+  background-color: #ececec;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: #000000;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat-thin";
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* features-section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #14a76c;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #3aafa9;
+}
+
+
+/* Booking section */
+
+#Booking {
+  background-color: #ececec;
+  text-align: center;
+  font-family: "Montserrat-thin";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.booking-image {
+  width: 80%;
+  border-radius: 100%;
+  font-size: 1rem;
+  margin: 20px;
+}
+
+.services {
+  padding-top: 3%
+}
+
+
+#testimonials {
+  text-align: center;
+  background-color: #14a76c;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+  text-align: center;
+}
+
+
+/* call to attention */
+
+#cta {
+  background-color: #14a76c;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-family: "Montserrat-light";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+
+  .AB {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1228px) {
+
+  .AB {
+    font-size: 20px;
+  }
+}
